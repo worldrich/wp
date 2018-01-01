@@ -1,0 +1,509 @@
+/* === Blog General === */
+
+#primary .sticky .yit_post_content {
+    border: 2px solid #f2f2f2;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.page-template-blog-php #slogan{
+    padding-bottom: 0;
+}
+
+.blog h3.post-title a{
+    word-wrap: break-word;
+}
+
+.blog .post,
+.page-template-blog-php .post,
+.archive .post,
+.archive .content .blog.small,
+.search .post{
+    margin-bottom: 35px;
+}
+
+.blog .yit_post_meta span a{
+    font-weight: 800;
+}
+
+.blog .yit_post_title_and_meta {
+    padding-top: 10px;
+}
+
+.blog.single .yit_post_title_and_meta {
+    margin-bottom: 20px;
+}
+
+.blog .yit_post_meta_date {
+    width: 65px;
+    text-align: center;
+    color: #fff;
+}
+
+.blog .yit_post_meta_date.normal {
+    border-width: 3px;
+    border-style: solid;
+}
+
+.blog .yit_post_meta_date .day,
+.blog .yit_post_meta_date .month{
+    display: block;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.blog .yit_post_meta_date .day{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+
+.blog .yit_post_meta_date .month {
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.blog .yit_post_meta_date.alternative .day{
+    line-height: 42px;
+    padding: 0;
+}
+
+.blog .yit_post_meta_date.alternative .month{
+    line-height: 32px;
+    padding: 0;
+}
+
+.blog .more-link,
+.blog .read-more{
+    display: inline-block;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+/* ================ */
+
+.format-quote .blog .yit_post_meta {
+    margin-bottom: 28px;
+}
+
+.post:not(.format-quote) .blog .no-thumbnail .yit_post_meta_date,
+.archive .blog .no-thumbnail .yit_post_meta_date{
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.format-quote .blog .yit_post_format_icon {
+    bottom: 1px;
+    left: 0;
+    top: 1px !important;
+    position: relative;
+}
+
+.blog h3.post-title a{
+    line-height: 24px;
+}
+
+.blog .yit_post_meta_date {
+    float: left;
+    margin-right: 20px;
+}
+
+.blog .yit_post_information_wrapper {
+    margin-bottom: 35px;
+}
+
+.format-quote .blog h3.post-title a {
+    display: block;
+}
+
+.format-quote .blog .yit_post_meta_date {
+    margin-right: 7px;
+    float: left;
+}
+
+.blog .yit_post_format_icon{
+    top: 0;
+}
+.blog .yit_post_content .post-title {
+    margin-top: 0;
+}
+
+.blog .yit_post_content .post-title a{
+        line-height: 24px;
+}
+
+.format-quote .blog .yit_the_content{
+    margin-bottom: 20px;
+}
+
+.format-quote .blog .yit_the_content p{
+    margin-left: 50px;
+}
+
+.format-quote .blog.single .yit_the_content p{
+    margin-left: 125px;
+}
+
+.format-quote .blog.masonry .yit_the_content p{
+    margin-left: 38px;
+}
+
+.format-quote .blog .post-wrapper {
+    margin-bottom: 20px;
+}
+
+.blog .yit_post_content p{
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+
+.blog .sidebar-double .post:not(.masonry_item):nth-child(2n+1),
+.page-template-blog-php .sidebar-double .post:not(.masonry_item):nth-child(2n+1){
+    clear: left;
+}
+
+.blog .sidebar-right .post:not(.masonry_item):nth-child(3n+1),
+.page-template-blog-php .sidebar-right .post:not(.masonry_item):nth-child(3n+1),
+.blog .sidebar-left .post:not(.masonry_item):nth-child(3n+1),
+.page-template-blog-php .sidebar-left .post:not(.masonry_item):nth-child(3n+1){
+    clear: left;
+}
+
+.blog .sidebar-no .post:not(.masonry_item):nth-child(4n+1),
+.page-template-blog-php .sidebar-no .post:not(.masonry_item):nth-child(4n+1){
+    clear: left;
+}
+
+/* ================ */
+
+/* === Blog Masonry === */
+
+.yes-js .blog-masonry{
+    visibility: hidden;
+}
+
+.blog.masonry .post-wrapper{
+    border: 1px solid;
+}
+
+.blog.masonry .yit_post_meta{
+    margin: 8px 24px 22px;
+    letter-spacing: 1px;
+}
+
+.blog.masonry .yit_post_meta:after{
+    content: '';
+    width: 90px;
+    height: 3px;
+    background: #eee;
+    margin-top: 16px;
+}
+
+.format-quote .blog.masonry .yit_post_meta {
+    margin-bottom: 28px;
+}
+
+.post:not(.format-quote) .blog.masonry .yit_post_meta_date{
+    position: absolute;
+    top: 7px;
+    left: 22px;
+}
+
+.post:not(.format-quote) .blog.masonry .no-thumbnail .yit_post_meta_date {
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.format-quote .blog.masonry .yit_post_format_icon{
+    bottom: 1px;
+    top: auto;
+}
+
+.format-quote .blog.masonry h3.post-title a {
+    display: block;
+}
+
+.format-quote .blog.masonry .yit_post_meta_date {
+    margin-top: 7px;
+    margin-left: 7px;
+    float: left;
+}
+
+.blog.masonry .yit_post_format_icon{
+    right: 16px;
+    top: 1px;
+}
+
+.blog.masonry .yit_post_content .post-title{
+    text-align: left;
+    padding: 0 24px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.blog.masonry .yit_the_content .more-link,
+.blog.masonry .yit_the_content .read-more{
+    margin-bottom: 30px;
+}
+
+.blog.masonry .yit_the_content{
+    padding: 0 22px;
+}
+
+.post_format-post-format-quote .blog.masonry h3.post-title {
+    margin-bottom: 30px;
+}
+
+/* ================ */
+
+/* === Post Formats Icons === */
+
+.blog .yit_post_format_icon{
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    font-size: 24px;
+    padding: 0px 10px;
+    color: #000000;
+}
+
+.blog.masonry .yit_post_format_icon {
+    top: -1px;
+    right: -1px;
+    padding-top: 5px;
+}
+
+/* ================ */
+
+/* === Support to double sidebars === */
+
+.sidebar-double .post:not(.format-quote) .blog.big .yit_post_content {
+    padding: 0 15px 10px;
+}
+
+.sidebar-double .blog.big .yit_the_content .more-link,
+.sidebar-double .blog.big .yit_the_content .read-more{
+    margin-top: 20px;
+}
+
+/* ================ */
+
+/* ================ */
+
+
+/* === Single Blog === */
+
+.blog.single .ms-view {
+    background-color: transparent;
+}
+
+.blog.single .post_video {
+    margin-top: 0;
+}
+
+.blog.single .post-title{
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.blog.single .post-title.cite {
+    margin-bottom: 30px;
+}
+
+.blog.single .thumbnail{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.blog.single .thumbnail.masterslider {
+    margin-bottom: 20px !important;
+    border: 0;
+    padding: 0;
+}
+
+.blog.single .thumbnail {
+    float: none;
+    margin-right: 0;
+}
+
+.blog.single .yit_post_title_and_meta {
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    border-width: 0 0 3px 0;
+    border-style: solid;
+}
+
+/*
+* ==== START Blog Share ====
+*/
+
+.blog.single .yit_post_meta.tags,
+.blog.single .yit_post_meta.no-tags {
+    border-style: solid;
+    border-width: 1px 0 ;
+}
+
+.blog.single .yit_post_meta.tags {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.blog.single .yit_post_meta.no-tags {
+    padding: 15px 0;
+}
+
+.blog.single .yit_post_meta.tags .text{
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.blog .socials-container {
+    text-align: right;
+}
+
+.blog .socials-container ul {
+    padding-left: 16px;
+}
+
+.blog .socials-container ul,
+.blog .socials-container li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.blog .socials-container li a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.blog .socials-container li span {
+    width: 38px;
+    height: 38px;
+    border-width: 2px;
+}
+
+.blog .socials-container li a i {
+    color: #c1c1c1;
+    font-size: 20px;
+}
+
+.blog .socials-container li a:hover i {
+    color: inherit;
+    opacity: 1;
+}
+
+/*
+* ==== END Blog Share ====
+*/
+
+.blog.big.single .post-format.audio object {
+    margin-bottom: 0;
+}
+
+.format-quote .blog.big .yit_post_content .yit_the_content {
+    margin-top: 50px;
+}
+
+.format-quote .blog.big.single .yit_post_meta_date{
+    float: left;
+}
+
+.post.format-quote .blog.big.single .yit_post_content{
+    border: 0;
+}
+
+.format-quote .blog.big.single .yit_post_content.title .title-meta-wrapper {
+    margin: 0;
+    display: block;
+}
+
+.format-quote .blog.big.single .yit_post_meta.first_block{
+    text-align: center;
+}
+
+.format-quote .blog.big.single .yit_the_content {
+    padding: 0 100px;
+}
+
+.blog.big.single .masterslider {
+    visibility: hidden;
+    margin-bottom: 15px !important;
+}
+
+.blog.big.single .ms-view{
+    background: transparent;
+}
+
+/* ================ */
+
+
+.blog .thumb {
+    margin-bottom: 0;
+    border: 0;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    border-radius: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.blog.single .thumb,
+.blog.single .video {
+    margin-bottom: 30px;
+}
+
+/***********************
+* NO POST
+*********************/
+#post-0 p {
+    margin-bottom: 20px;
+}
+#post-0 div.searchform label {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#post-0 div.searchform div.search-wrapper input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#post-0 div.searchform input[type="submit"] {
+    float: right;
+}
+
+/***********************
+* SEARCH RESULT
+*********************/
+.search-result{
+    margin-bottom: 35px;
+}
+
+/***********************
+* WP Social Login Fix
+*********************/
+
+.blog-single .wp-social-login-widget {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.blog-single .wp-social-login-provider-list {
+    padding: 5px 0;
+}
